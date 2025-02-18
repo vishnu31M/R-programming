@@ -1,0 +1,5 @@
+a <- c(1, 4, 7)
+b <- c(2, 5, 8)
+c <- c(3, 6, 9)
+matrix_data <- cbind(a, b, c)
+print(matrix_data)
