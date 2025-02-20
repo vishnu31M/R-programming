@@ -1,0 +1,5 @@
+set.seed(123)
+random_numbers <- rnorm(1000, mean = 0, sd = 1)
+random_numbers_rounded <- round(random_numbers, 2)
+occurrences <- table(random_numbers_rounded)
+print(occurrences)
